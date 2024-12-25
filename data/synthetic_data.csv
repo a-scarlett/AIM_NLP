@@ -1,0 +1,376 @@
+command,target
+ls current dir but include hidden files,1
+move all *.txt to backup dir,1
+new folder creation mkdir project-files,1
+remove the logs/*.log files,1
+switch to /var/www/html directory,1
+read content of /etc/passwd,1
+look for 'error' inside all config/*.conf files,1
+print out the absolute path of current folder,1
+duplicate my_notes.txt to copy_notes.txt,1
+get space usage summary of current dir du,1
+list running processes with detailed info,1
+chmod 755 on all *.sh in scripts folder,1
+manual entry for awk tool,1
+compress files into compressed.tar.gz,1
+unpack files from compressed.tar.gz archive,1
+send echo 'Hello World' to localhost,1
+check active network connections netstat,1
+ssh connect user@remote_host for debugging,1
+download http://example.com/file.zip into here,1
+find all images *.jpg recursively from this point,1
+show env variables printenv,1
+tail -f logs/application.log to see updates,1
+stop service systemctl stop apache2,1
+git clone https://github.com/user/repo.git project_repo,1
+curl -I to check headers of example.com,1
+edit hosts file using nano,1
+delete user john from system,1
+restart the nginx server,1
+scp file.txt user@remote:/path/to/destination,1
+validate YAML config using yaml-lint tool,1
+run Python script ./script.py,1
+inspect Docker container logs,1
+mount /dev/sdb1 to /mnt/external,1
+list open files with lsof,1
+backup MySQL database using mysqldump,1
+get CPU info from /proc/cpuinfo,1
+compare two files diff file1.txt file2.txt,1
+truncate log files larger than 1GB,1
+set alias ll='ls -l' in .bashrc,1
+reboot the system immediately,1
+get current user id with id,1
+search dmesg for recent kernel errors,1
+combine file1 and file2 into merged.txt,1
+replace 'foo' with 'bar' in data.csv using sed,1
+kill process by name matching 'chrome',1
+test network speed with speedtest-cli,1
+write uptime info into uptime.log,1
+run background process nohup ./script.sh &,1
+schedule job with crontab -e,1
+zip folder documents.zip documents/,1
+unzip downloaded.zip to ./folder,1
+load environment vars from .env file source,1
+ping -c 5 server and output results,1
+list disk partitions fdisk -l,1
+check memory usage free -h,1
+generate ssh key ssh-keygen -t rsa,1
+update packages using apt update && apt upgrade,1
+disable SELinux temporarily,1
+show listening ports ss -tuln,1
+count lines in file wc -l file.txt,1
+redirect stdout to logfile.txt,1
+extract text from file.pdf using pdftotext,1
+compile C program gcc main.c -o program,1
+sync files with rsync -avh source/ destination/,1
+show last reboot info with last reboot,1
+add static IP to network config,1
+clear terminal screen using clear,1
+connect to VPN with openvpn config.ovpn,1
+create symbolic link ln -s target link_name,1
+show UUIDs of all partitions blkid,1
+get file type of unknown_file file unknown_file,1
+sort lines in file alphabetically sort file.txt,1
+remove duplicates from sorted file uniq file.txt,1
+list recent git commits,1
+revert git commit but keep changes,1
+open system monitor top,1
+check hostname of current machine,1
+check timezone with timedatectl,1
+stop cron service systemctl stop cron,1
+install package using yum install package_name,1
+find large files over 1GB find / -size +1G,1
+download entire website wget -r http://example.com,1
+enable service on boot systemctl enable service_name,1
+disable swap temporarily swapoff -a,1
+restore Postgres database pg_restore backup.sql,1
+list contents of initrd.img file,1
+check kernel version uname -r,1
+download file with aria2c tool,1
+extract tar.gz without tar command gunzip,1
+view hex dump of binary file xxd binary_file,1
+open web browser from terminal xdg-open http://example.com,1
+connect to FTP server ftp ftp.example.com,1
+enable UFW firewall ufw enable,1
+list USB devices lsusb,1
+inspect disk IO iostat,1
+convert images with imagemagick convert command,1
+compress with 7z 7z a archive.7z folder/,1
+create tmp file touch /tmp/tempfile,1
+start docker-compose services,1
+list all aliases currently defined alias,1
+list cron jobs for user crontab -l,1
+set timezone using timedatectl set-timezone,1
+delete all .bak files from backups dir,1
+list open network connections with ss,1
+find active users on system with who command,1
+restart Bluetooth service systemctl restart bluetooth,1
+mount remote filesystem via NFS,1
+scan for available WiFi networks iwlist scan,1
+create new git branch feature-branch,1
+check diff between two branches,1
+hard reset git to previous commit,1
+export PATH variable to include /usr/local/bin,1
+install software via snap install,1
+list running containers docker ps,1
+stop all running docker containers,1
+show disk usage summary of /var,1
+display kernel logs journalctl -k,1
+monitor real-time logs tail -f /var/log/syslog,1
+sort files in descending size order,1
+grep specific IP address in access logs,1
+generate random password using openssl rand,1
+install pip for Python via get-pip.py,1
+search dpkg for installed package info,1
+compress multiple files into .zip,1
+update systemctl unit file and reload,1
+enable swap again swapon -a,1
+convert file encoding using iconv,1
+install dependencies from requirements.txt pip install,1
+test DNS resolution with dig,1
+create a tarball with gzip compression,1
+print route table with ip route show,1
+display system uptime using uptime,1
+show info about PCI devices lspci,1
+download multiple files in batch wget -i urls.txt,1
+filter logs by date grep '2024-12-25',1
+merge audio files with ffmpeg,1
+simulate HTTP request using curl -X POST,1
+delete lines containing ERROR from log,1
+generate SSH config file for host,1
+reload nginx configuration without restart,1
+set default gateway with route command,1
+unmount partition umount /dev/sda1,1
+list active connections using netstat,1
+find symbolic links under directory,1
+sync hardware clock with ntpdate,1
+check RAM usage in MB with free,1
+inspect inode usage on disk,1
+kill all processes named firefox,1
+validate SSL certificate using openssl,1
+initialize Terraform configuration terraform init,1
+write a string to specific line of file,1
+send a test email using sendmail,1
+test file permissions with test -r,1
+compare checksum of two files,1
+connect to MySQL server using mysql command,1
+restart SSH service systemctl restart ssh,1
+check if package is installed via dpkg -l,1
+set hostname with hostnamectl set-hostname,1
+search for TODO comments in source code,1
+count files in directory with ls -1 | wc -l,1
+download only header of URL,1
+extract domain names from URLs,1
+list files sorted by access time,1
+stop systemd timers systemctl stop,1
+create encrypted archive with zip,1
+inspect Docker image layers,1
+pull latest code from remote repository,1
+test open port with telnet,1
+resize image to 800x600 using convert,1
+list all loaded kernel modules,1
+set default editor using update-alternatives,1
+copy directory structure without files,1
+generate SSH public key from private,1
+disable auto updates via apt,1
+grep lines between two matching patterns,1
+log CPU temperature to temp.log,1
+limit process CPU usage using cpulimit,1
+write current date to date.log,1
+parse JSON file using jq,1
+rotate logs manually with logrotate,1
+disable a cron job temporarily,1
+inspect changes in file with diff,1
+edit bash script using vim,1
+check system boot time using who -b,1
+monitor system IO in real time iotop,1
+test API endpoint with curl,1
+clean cached memory sync && echo,1
+find duplicate files by size,1
+combine PDF documents into one,1
+change ownership of /var/www to user,1
+list services managed by systemd,1
+test TCP connection with nc,1
+update GRUB configuration grub-mkconfig,1
+check user shell with getent passwd,1
+list blocked IPs in firewall rules,1
+scan ports of remote host with nmap,1
+move system logs to backup directory,1
+generate UUID using uuidgen,1
+trace route to google.com,1
+create ISO image from folder using genisoimage,1
+sync time with systemd-timesyncd,1
+write cron job to run daily at 2 AM,1
+force delete folder /tmp/testdir,1
+remove dangling Docker images,1
+update npm to latest version,1
+enable verbose logging for ssh,1
+run Python in interactive mode,1
+backup system files to external disk,1
+configure static IP in /etc/network/interfaces,1
+search logs for warning level entries,1
+merge CSV files into one using cat,1
+watch disk usage increase in real time,1
+add user to sudoers group,1
+check disk errors with fsck,1
+list systemctl units by type,1
+install custom fonts in ~/.fonts,1
+export database as SQL file,1
+check CPU load using htop,1
+enable passwordless SSH login,1
+set default shell to zsh,1
+find and delete empty files,1
+inspect IP packets with tcpdump,1
+compile Java program javac,1
+run Node.js server with node app.js,1
+clean up unused dependencies apt autoremove,1
+generate MD5 hash for file,1
+update repository index with apt,1
+display hidden files with ls,1
+find config files containing IPs,1
+count words in a document,1
+disable touchpad on a laptop,1
+append text to end of file,1
+connect to PostgreSQL database,1
+generate random numbers with shuf,1
+resize terminal window to default,1
+delete cookies in web browser using terminal,1
+simulate user input with xdotool,1
+monitor network bandwidth with bmon,1
+start graphical user interface from CLI,1
+compress all images in directory,1
+list running Java processes,1
+upgrade installed packages brew upgrade,1
+check kernel parameters sysctl -a,1
+change directory to parent folder,1
+show memory-mapped files of process,1
+run Django development server,1
+remove leading whitespace in text,1
+combine video clips using ffmpeg,1
+filter files by last modified date,1
+get HTTP response code with curl,1
+read random numbers from /dev/random,1
+delete old backups older than 30 days,1
+set brightness level for monitor,1
+archive entire home directory tar,1
+list all IP addresses of local machine,1
+start web server python3 -m http.server,1
+upload file to FTP server,1
+disable Bluetooth service,1
+edit system environment variables,1
+scan for available Bluetooth devices,1
+schedule shutdown at 10 PM,1
+reconnect dropped SSH session,1
+create virtual environment for Python,1
+extract metadata from image file,1
+build Docker image from Dockerfile,1
+open port 8080 in firewall,1
+monitor changes in directory with inotify,1
+replace all tabs with spaces,1
+stop infinite loop in terminal,1
+display first 100 lines of file,1
+count unique words in file,1
+verify GPG signature of file,1
+set maximum open file descriptors,1
+install specific version of software,1
+test ping response of remote server,1
+display hardware info using lshw,1
+disable terminal bell notification,1
+log user activity in session,1
+show installed versions of Python,1
+find directories larger than 1GB,1
+delete broken symbolic links,1
+backup and restore systemd units,1
+configure hostname in /etc/hostname,1
+simulate shell commands in dry run,1
+list orphaned Docker volumes,1
+find scripts with executable bit set,1
+show hidden startup applications,1
+rename all *.txt to *.md,1
+send broadcast message via wall,1
+schedule script execution in 5 minutes,1
+compress logs older than 1 week,1
+inspect Git repository history,1
+format USB drive as FAT32,1
+find files with no read permissions,1
+split large file into smaller chunks,1
+create zip archive with password,1
+setup proxy settings via terminal,1
+list users logged in at specific time,1
+simulate data transfer using dd,1
+benchmark disk speed with hdparm,1
+disable graphical login screen,1
+verify SSL connection using curl,1
+set priority for a running process,1
+revert changes to unstaged files in git,1
+get free disk space in percentage,1
+lock specific user account,1
+monitor USB device events,1
+check date and time synchronization,1
+create self-signed SSL certificate,1
+get audio stream info using ffprobe,1
+enable strict mode in bash script,1
+create tar.bz2 archive for directory,1
+extract ISO to current folder,1
+download file via SFTP,1
+add new user with specific UID,1
+disable mouse acceleration,1
+test disk read/write speed,1
+display public IP address of host,1
+check battery status using upower,1
+get MAC address of network interface,1
+disable root login in SSH config,1
+install system updates unattended,1
+backup folder excluding subfolders,1
+monitor system logs for errors,1
+list all open sockets on system,1
+run command only if previous fails,1
+copy files while preserving symlinks,1
+create new user without home directory,1
+find duplicate images by hash,1
+reformat JSON file for readability,1
+update bash profile after changes,1
+get path of running binary,1
+clear bash command history,1
+enable debug logging for nginx,1
+restrict SSH access by IP,1
+unmount filesystem forcefully,1
+search available snap packages,1
+limit maximum RAM usage per process,1
+export alias for permanent use,1
+delete files with specific extensions,1
+create hashed password for /etc/shadow,1
+disable USB storage access,1
+check NVMe SSD health with smartctl,1
+run command in isolated namespace,1
+convert audio file formats,1
+display last 50 lines of syslog,1
+find all files owned by user,1
+auto-detect video resolution using ffmpeg,1
+create temporary directory safely,1
+update DNS cache resolver,1
+enable kernel debugging logs,1
+compress files into bzip2 archive,1
+auto-reconnect VPN if disconnected,1
+find active kernel threads,1
+remove old log files securely,1
+inspect HTTP traffic with tcpdump,1
+download webpage content only,1
+list files excluding certain patterns,1
+setup multi-factor authentication for SSH,1
+switch default Python version,1
+check uptime history of system,1
+update system BIOS via CLI,1
+schedule restart with time interval,1
+verify SSH keys for compatibility,1
+clean orphaned libraries after upgrade,1
+force quit unresponsive terminal session,1
+recreate corrupted user profile,1
+configure network interface via ip command,1
+run scheduled tasks manually,1
+sync home folder with remote server,1
+check available block devices,1
+force hardware restart using sysrq,1
+log all shell commands with timestamp,1
+update environment variables for child process,1
+restrict file permissions for private keys,1
